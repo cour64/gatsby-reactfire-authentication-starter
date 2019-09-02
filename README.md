@@ -40,8 +40,8 @@ This starter builds on top of the official [Gatsby default starter](https://gith
 
 #### Some additional packages used:
 
-- **`firebase`**: the firebase JS SDK
-- **`reactfire/@canary`**: used to manage auth state and provide utility hooks for accessing the firebase SDK
+- **`firebase`**: The firebase JS SDK
+- **`reactfire`**: Used to manage auth state and provide utility hooks for accessing the firebase SDK
 - **`@reach/router`**: Used to handle client-side routing
 
 Apart from the [files found](https://github.com/gatsbyjs/gatsby-starter-hello-world/#-whats-inside) inside the default gatsby starter here are a few additions:
