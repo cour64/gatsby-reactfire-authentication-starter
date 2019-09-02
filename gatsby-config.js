@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Reactfire Authentication Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Kick off your next, great Gatsby project with this starter. This barebones starter ships with a simple firebase and reactfire authentication system setup.`,
+    author: `< your name here >`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

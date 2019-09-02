@@ -17,15 +17,7 @@ A simple starter to get up and developing quickly with Gatsby and Firebase (reac
     gatsby new reactfire-auth-starter https://github.com/cour64/gatsby-reactfire-authentication-starter
     ```
 
-2.  **Create a firebase account.**
-
-    Create a [firebase](https://firebase.google.com/) account, sign in and get your [config object](https://firebase.google.com/docs/web/setup#config-object). A simple guide on how to get started with firebase is [available here](https://firebase.google.com/docs/web/setup/).
-
-3.  **Copy you firebase config object.**
-
-    Once you have your config object copy it into the `gatsby-browser.js` file.
-
-4.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -33,6 +25,20 @@ A simple starter to get up and developing quickly with Gatsby and Firebase (reac
     cd reactfire-auth-starter/
     gatsby develop
     ```
+
+3.  **Test the login.**
+
+    Go to localhost:8000 and test the default login using the credentials:
+    **email**: test@test.com
+    **password**: 123456
+
+4.  **Create a firebase account.**
+
+    Create a [firebase](https://firebase.google.com/) account, sign in and get your [config object](https://firebase.google.com/docs/web/setup#config-object). A simple guide on how to get started with firebase is [available here](https://firebase.google.com/docs/web/setup/).
+
+5.  **Copy you firebase config object.**
+
+    Once you have your own config object copy it into the `gatsby-browser.js` file.
 
 ## 🧰 What's in the box?
 
