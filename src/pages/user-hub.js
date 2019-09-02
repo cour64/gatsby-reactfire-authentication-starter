@@ -4,7 +4,7 @@ import { AuthCheck } from "reactfire"
 
 import Redirect from "../components/redirect"
 import Layout from "../components/layout"
-const Dashboard = lazy(() => import("./dashboard"))
+const Dashboard = lazy(() => import("../components/dashboard"))
 
 const UserHubIndex = () => {
   return (

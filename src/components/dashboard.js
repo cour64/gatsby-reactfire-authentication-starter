@@ -2,8 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import { useUser, useFirebaseApp } from "reactfire"
 
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Image from "./image"
+import SEO from "./seo"
 
 const Dashboard = () => {
   const user = useUser()
